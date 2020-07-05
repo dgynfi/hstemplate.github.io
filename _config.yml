@@ -1,0 +1,174 @@
+# Site settings
+title: Hansen's Blog
+SEOTitle: Hansen's Blog | 汉生的博客
+header-img: images/home-bg.jpg
+email: vinphy.teng@foxmail.com
+maintainer: dyf
+description: ""
+keyword: ""
+url: "https://dgynfi.github.io" # your host, for absolute URL
+baseurl: "/" # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+# SNS settings
+RSS: true
+github_username: dgynfi
+jianshu_username: u/7fc76f1179cc
+zhihu_username: dgynfi
+#weibo_username: u/2617525300
+#twitter_username:  
+#facebook_username:  
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM # use Github Flavored Markdown !important
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+# duoshuo_username: 
+# Share component is depend on Comment so we can not use share only.
+# duoshuo_share: true # set to false if you want to use Comment without Sharing
+
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Google Analytics
+# ga_track_id: 'UA-49627206-1' # Format: UA-xxxxxx-xx
+# ga_domain: hansenteng.com
+
+
+# Sidebar settings
+sidebar: true # whether or not using Sidebar.
+sidebar-about-description: "努力奋斗学习，相信好运藏在努力里。"
+sidebar-avatar: /images/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+# Featured Tags
+featured-tags: true # whether or not using Feature-Tags
+featured-condition-size: 0 # A tag will be featured if the size of it is more than this condition value
+
+
+# QRcode settings
+qrcode: true # whether or not showing QRcode
+qrcode-ios-description: Group I - iOS/macOS X  # TC Group => Technical Communication Group
+qrcode-other-description: Group II - Other Dev Language # TC Group => Technical Communication Group
+
+
+# Friends
+friends: [
+    {
+        title: "唐巧的博客",
+        href: "https://blog.devtang.com"
+    },
+    {
+        title: "OneV's Den",
+        href: "https://onevcat.com"
+    },
+    {
+        title: "Garan no dou | 一只魔法师的工坊",
+        href: "https://blog.ibireme.com"
+    },
+    {
+        title: "Vincent Gable’s Blog",
+        href: "http://vgable.com/blog/"
+    },
+    {
+        title: "念茜的博客",
+        href: "https://blog.csdn.net/yiyaaixuexi/"
+    },
+    {
+        title: "Kenshin Cui's Blog",
+        href: "https://www.cnblogs.com/kenshincui/"
+    },
+    {
+        title: "NSHipster",
+        href: "https://nshipster.cn"
+    },
+    {
+        title: "Limboy's HQ",
+        href: "https://limboy.me/"
+    },
+    {
+        title: "Kevin Blog",
+        href: "https://blog.kevinzhow.com"
+    },
+    {
+        title: "sunnyxx的技术博客",
+        href: "https://blog.sunnyxx.com"
+    },
+    {
+        title: "coderyi",
+        href: "http://coderyi.com"
+    },
+    {
+        title: "bang's blog",
+        href: "https://blog.cnbang.net"
+    },
+    {
+        title: "Chen_Yilong - 博客园",
+        href: "https://www.cnblogs.com/ChenYilong"
+    },
+    {
+        title: "摇滚诗人 - 博客园",
+        href: "https://www.cnblogs.com/biosli"
+    },
+    {
+        title: "Bison的技术博客 – iOS开发",
+        href: "https://allluckly.cn/"
+    },
+    {
+        title: "老谭笔记",
+        href: "https://www.tanhao.me"
+    },
+    {
+        title: "Kitten's 时间胶囊",
+        href: "https://kittenyang.com"
+    },
+    {
+        title: "阿毛的蛋疼地",
+        href: "https://xiangwangfeng.com"
+    },
+    {
+        title: "极客 IO",
+        href: "http://zengxianhua.com/"
+    },
+    {
+        title: "Blogs | nswebfrog",
+        href: "https://blog.nswebfrog.com"
+    },
+    {
+        title: "hengshujiyi_CSDN博客",
+        href: "https://blog.csdn.net/hengshujiyi"
+    },
+    {
+        title: "think12_CSDN博客",
+        href: "https://blog.csdn.net/think12"
+    },
+    {
+        title: "iOSer - 专题",
+        href: "https://www.jianshu.com/c/afb29f0c7bbd"
+    }
+]
