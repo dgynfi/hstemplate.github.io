@@ -1,8 +1,8 @@
 ## hstemplate.github.io
 
-原博客仓库地址：[dgynfi.github.io]((https://github.com/dgynfi/dgynfi.github.io)。
+原博客仓库地址：[dgynfi.github.io](https://github.com/dgynfi/dgynfi.github.io)。
 
-配置完成博客仓库中的一些文件后，类似长这样:
+配置完成此仓库中的一些文件后，访问如：“[https://dgynfi.github.io](https://dgynfi.github.io)”，类似长这样:
 ![](https://github.com/dgynfi/hstemplate.github.io/raw/master/images/hansen-blog.png)
 
 
