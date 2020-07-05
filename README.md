@@ -1,6 +1,8 @@
 ## hstemplate.github.io
 
-博客配置完成后，类似长这样:
+原博客仓库地址：[dgynfi.github.io]((https://github.com/dgynfi/dgynfi.github.io)。
+
+配置完成博客仓库中的一些文件后，类似长这样:
 ![](https://github.com/dgynfi/hstemplate.github.io/raw/master/images/hansen-blog.png)
 
 
@@ -16,7 +18,7 @@
 ## 支持
 
 * 你可以自由的 fork 。如果你能将我的信息和 github 的地址放在你的页面底部做成链接，我将非常感谢你。
-* 如果你喜欢我的这个博客模板，请在 `dgynfi.github.io` 这个 repository 点个赞（右上角 **star** 一下）。
+* 如果你喜欢我的这个博客模板，请在 `hstemplate.github.io` 这个 repository 点个赞（右上角 **star** 一下）。
 
 
 ## 说明文档
